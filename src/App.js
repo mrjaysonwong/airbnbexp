@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Card from './components/Card';
 
-function App() {
+import airbnbData from './data';
+
+/*
+Challenge: Build the Navbar component.
+Check the Figma file for the design specifics.
+*/
+
+/*
+Challenge: Pass props to the Card component and display that data
+
+- img ("katie-zaferes.png")
+- rating ("5.0")
+- reviewCount (6)
+- country (Whatever you want)
+- title ("Life Lessons with Katie Zaferes")
+- price (136)
+
+*/
+
+export default function App() {
+  const cards = airbnbData.map((item) => (
+    <Card
+      key={item.id}
+      item={item}
+      // {...item} //ES6
+    />
+  ));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
+      <h2 className="best--sellers">Best sellers</h2>
+      <section className="card--section">
+        {cards}
+      </section>
     </div>
   );
 }
-
-export default App;

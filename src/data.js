@@ -1,0 +1,103 @@
+export default [
+  {
+    id: 1,
+    title: 'Life Lessons with Katie Zaferes',
+    description:
+      'I will share with you what I call "Positively Impactful Moments of Disappointment." Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
+    price: 136,
+    coverImg: '/images/katie-zaferes.png',
+    stats: {
+      rating: 5.0,
+      reviewCount: 6,
+    },
+    location: 'USA',
+    openSpots: 0,
+    status: 'Online',
+  },
+  {
+    id: 2,
+    title: 'Learn Wedding Photography',
+    description:
+      "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+    price: 125,
+    coverImg: '/images/wedding-photography.png',
+    stats: {
+      rating: 5.0,
+      reviewCount: 30,
+    },
+    location: 'France',
+    openSpots: 27,
+    status: 'Online',
+  },
+  {
+    id: 3,
+    title: 'Group Mountain Biking',
+    description:
+      'Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)',
+    price: 50,
+    coverImg: '/images/mountain-bike.png',
+    stats: {
+      rating: 4.8,
+      reviewCount: 2,
+    },
+    location: 'Norway',
+    openSpots: 3,
+    status: 'Offline',
+  },
+  {
+    id: 4,
+    title: 'Learn Scuba Diving',
+    description: 'Experience the easy way of scuba diving',
+    price: 80,
+    coverImg: '/images/diving.png',
+    stats: {
+      rating: 4.5,
+      reviewCount: 5,
+    },
+    location: 'Philippines',
+    openSpots: 0,
+    status: 'Online',
+  },
+  {
+    id: 5,
+    title: 'Group Trekking',
+    description: 'Breath taking scenery',
+    price: 25,
+    coverImg: '/images/trekking.png',
+    stats: {
+      rating: 4.7,
+      reviewCount: 12,
+    },
+    location: 'USA',
+    openSpots: 5,
+    status: 'Online',
+  },
+  {
+    id: 6,
+    title: 'Discover Palawan',
+    description: 'Discover Palawan',
+    price: 60,
+    coverImg: '/images/palawan.png',
+    stats: {
+      rating: 4.9,
+      reviewCount: 50,
+    },
+    location: 'Philippines',
+    openSpots: 0,
+    status: 'Online',
+  },
+  {
+    id: 7,
+    title: 'Next level Skiing',
+    description: 'Extreme Skiing',
+    price: 15,
+    coverImg: '/images/skii.png',
+    stats: {
+      rating: 4.3,
+      reviewCount: 7,
+    },
+    location: 'Canada',
+    openSpots: 5,
+    status: 'Offline',
+  },
+];
